@@ -1,0 +1,17 @@
+.new{
+    color:green;
+    font-size:30px;
+    background-color: yellow;
+    width:200px;
+    height: 250px;
+    /* margin-top: 200px;
+    margin-left: 200px; */
+     /* 2 properties - top and bottom , left and right  */
+    /* margin:200px 100px; */
+    /* 4 properties - top , right , bottom , left */
+    /* margin : 200px 100px 1000px 500px; */
+    padding-left: 50px;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

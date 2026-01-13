@@ -1,0 +1,28 @@
+div p {
+    color: blue;
+}
+
+/* h1+p {
+    color: green;
+} */
+h1 ~ p {
+    color: orange;
+}
+/* h6{
+    color:bisque;
+}
+h6:hover{
+    color: brown;
+} */
+input:focus{
+    background-color: lightgreen    ;
+}
+
+h6::before { content: "👉 before "; }
+h6::after { content: " ✔ after"; }
+p::first-letter { font-size: 30px; }
+
+section{
+    margin: 200px;
+    color: purple;
+}
