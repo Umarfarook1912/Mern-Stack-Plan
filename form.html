@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Feedback Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter Email"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter Password"><br>
+            <label>Plese check all the emotions that apply to you:</label>
+            <input type="checkbox" id="happy" name="emotion" value="happy">
+            <label for="happy">Happy</label>
+            <input type="checkbox" id="sad" name="emotion" value="sad">
+            <label for="sad">Sad</label>        
+            <input type="checkbox" id="angry" name="emotion" value="angry">
+            <label for="angry">Angry</label><br>
+            <label>How satisfied were you with out service?</label>
+            <input type="radio" id="very_satisfied" name="satisfaction" value="very_satisfied">
+            <label for="very_satisfied">Very Satisfied</label>  
+            <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+            <label for="satisfied">Satisfied</label>
+            <input type="radio" id="unsatisfied" name="satisfaction" value="unsatisfied">
+            <label for="unsatisfied">Unsatisfied</label><br>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br>
+            <label>Bio Photo:</label>
+            <input type="file" id="bio_photo" name="bio_photo" accept="image/*"><br>
+            <label>Location visited:</label>
+            <select id="location" name="location">
+                <option value="new_york">New York</option>
+                <option value="los_angeles">Los Angeles</option>
+                <option value="chicago">Chicago</option>
+                <option value="miami">Miami</option>
+            </select><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
