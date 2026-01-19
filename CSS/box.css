@@ -1,0 +1,24 @@
+.content{
+    box-sizing: content-box;
+    width: 200px;
+    padding:20px;
+    background-color: #ab26e9;
+}
+.border{
+    box-sizing: border-box;
+    width: 200px;
+    padding:20px;
+    background-color: blue;
+}
+.overflow{
+    border: 2px solid rgb(240, 21, 58);
+    box-sizing: border-box;
+    width:900px;
+    overflow: auto;
+    visibility: hidden;
+
+}
+/* .hide{
+    display: none;
+    visibility: hidden;
+} */
