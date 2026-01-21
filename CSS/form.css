@@ -1,0 +1,7 @@
+.button{
+    /* background: linear-gradient(to right,red, yellow); */
+    background: radial-gradient(circle, red, blue);
+}
+.radial{
+    background: radial-gradient(circle, red, blue);
+}
