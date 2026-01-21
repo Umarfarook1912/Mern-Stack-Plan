@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  color: white;
+  padding: 10px;
+}
+
+/* lowest layer */
+.box1 {
+  background: red;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+/* middle layer */
+.box2 {
+  background: blue;
+  top: 80px;
+  left: 80px;
+  z-index: 2;
+}
+
+/* top layer */
+.box3 {
+  background: green;
+  top: 110px;
+  left: 110px;
+  z-index: 3;
+}

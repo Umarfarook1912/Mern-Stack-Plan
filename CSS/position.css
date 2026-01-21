@@ -15,6 +15,7 @@ body {
 .static {
   position: static;
   background: gray;
+  /* top: 20px; */
 }
 
 /* relative */
@@ -54,6 +55,7 @@ body {
 /* sticky */
 .sticky {
   position: sticky;
+  /* top: 0; */
   top: 0;
   background: purple;
 }
