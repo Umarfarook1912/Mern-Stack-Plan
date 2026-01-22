@@ -70,3 +70,64 @@ body {
 .stretch {
   align-items: stretch;
 }
+
+.navbar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  background: #333;
+  color: white;
+}
+
+.menu{
+  display: flex;
+  gap:20px;
+  list-style: none;
+}
+
+.cards{
+  display: flex;
+  gap:30px;
+  padding: 20px;
+}
+
+.card1{
+  /* flex-grow:2; */
+  /* flex:1; */
+  border:2px solid black;
+}
+.card2{
+  flex-shrink:0;
+  border:2px solid black;
+}
+.card3{
+  flex-basis:400px;
+  border:2px solid black;
+  flex-shrink:0;
+}
+
+.flex {
+  display: flex;
+  height: 200px;
+  gap: 20px;
+  border: 2px solid black;
+}
+.item {
+  background: orange;
+  padding: 80px;
+}
+
+.one{
+  flex-grow:1;
+  order:-2
+}
+
+.two{
+   flex-grow: 2;
+   align-self:center;
+   order:1;
+}
+.three{
+  order:-1;
+}
