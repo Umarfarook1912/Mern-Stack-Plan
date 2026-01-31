@@ -1,0 +1,14 @@
+.btn{
+    background-color: rgb(138, 213, 138);
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;    
+     transition: transform 5s linear;
+}
+
+.btn:hover{
+    /* background-color: hotpink;
+    color: white; */
+    transform: scale(5.05);
+}
