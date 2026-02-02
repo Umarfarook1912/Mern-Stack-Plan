@@ -70,3 +70,28 @@ body{
     box-shadow:2px 2px 4px 2px rgb(211, 173, 211);
     transform: translateY(-5px);
 }
+
+.features{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+}
+.features img{
+    width:50px;
+    height:50px
+}
+.card{
+    background-color: white;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow:2px 2px 4px 2px rgb(41, 39, 41);
+    transform: translateY(-5px);
+}
