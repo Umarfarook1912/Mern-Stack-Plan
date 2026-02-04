@@ -143,3 +143,40 @@ b{
 .hyper::after {
   margin-left: 1em; 
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#e3e0f7;
+    border-radius: 10px;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer ul li b{
+    font-size:18px;
+}
+.image{
+    margin-top: 10px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+}
+#policy{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+.webpage{
+    box-shadow: 2px 2px 4px 2px rgb(189, 177, 177);
+    border-radius: 10px;
+    padding: 10px;
+}
+#category{
+    list-style-type: circle;
+    margin-left: 15px;
+}
