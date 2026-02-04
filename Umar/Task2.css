@@ -148,6 +148,7 @@ b{
     justify-content: space-between;
     background-color:#e3e0f7;
     border-radius: 10px;
+    padding: 10px 100px;
 }
 .footer ul li{
     list-style-type: none;
